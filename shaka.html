@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://github.com/videojs/mux.js/releases/latest/download/mux.js"></script>
+  <script src="dist/three.js"></script>
+  <!-- Shaka Player compiled library: -->
+  <script src="dist/shaka-player.compiled.js"></script>
+  <!-- Your application source: -->
+  <script src="myapp.js"></script>
+</head>
+
+<body>
+  <div id="container" style="width: 640px; height: 480px;"></div>
+  <video id="video" controls autoplay style="display: none;"></video>
+  <br>
+  <button id="playBtn" onclick="playVideo()">Play</button>
+  <button id="pauseBtn" onclick="pauseVideo()">Pause</button>
+</body>
+
+</html>
